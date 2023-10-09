@@ -1,0 +1,5 @@
+/home/bing/CLionProjects/C-14/ch3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/bing/CLionProjects/C-14/ch3/cmake-build-debug/CMakeFiles/derivative.dir
+/home/bing/CLionProjects/C-14/ch3/cmake-build-debug/CMakeFiles/accumulate_functor_example.dir
+/home/bing/CLionProjects/C-14/ch3/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/bing/CLionProjects/C-14/ch3/cmake-build-debug/CMakeFiles/lambda.dir

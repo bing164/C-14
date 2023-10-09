@@ -1,0 +1,3 @@
+/home/bing/CLionProjects/C-14/ch2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/bing/CLionProjects/C-14/ch2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/bing/CLionProjects/C-14/ch2/cmake-build-debug/CMakeFiles/vector_test.dir
