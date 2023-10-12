@@ -1,0 +1,5 @@
+# ninja log v5
+204	237	1696923675139567040	vector	f5b574f89c7ef8a
+0	204	1696923675107567492	CMakeFiles/vector.dir/vector.cpp.o	8b2ae2fc6f0b03ed
+0	207	1696988645662177609	CMakeFiles/algorithms.dir/algorithms.cpp.o	d699adfe92df0e29
+207	257	1696988645710176243	algorithms	89ac39a3d85ee2f

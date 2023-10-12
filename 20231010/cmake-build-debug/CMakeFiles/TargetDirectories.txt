@@ -1,0 +1,4 @@
+/home/bing/CLionProjects/C-14/20231010/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/bing/CLionProjects/C-14/20231010/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/bing/CLionProjects/C-14/20231010/cmake-build-debug/CMakeFiles/class2.dir
+/home/bing/CLionProjects/C-14/20231010/cmake-build-debug/CMakeFiles/class1.dir
