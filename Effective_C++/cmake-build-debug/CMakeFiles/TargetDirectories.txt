@@ -1,0 +1,7 @@
+/home/bing/CLionProjects/C-14/Effective_C++/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/bing/CLionProjects/C-14/Effective_C++/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/bing/CLionProjects/C-14/Effective_C++/cmake-build-debug/CMakeFiles/effective9.dir
+/home/bing/CLionProjects/C-14/Effective_C++/cmake-build-debug/CMakeFiles/effective5.dir
+/home/bing/CLionProjects/C-14/Effective_C++/cmake-build-debug/CMakeFiles/effective7.dir
+/home/bing/CLionProjects/C-14/Effective_C++/cmake-build-debug/CMakeFiles/effective6.dir
+/home/bing/CLionProjects/C-14/Effective_C++/cmake-build-debug/CMakeFiles/effective8.dir

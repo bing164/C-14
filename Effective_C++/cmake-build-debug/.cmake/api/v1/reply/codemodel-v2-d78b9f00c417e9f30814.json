@@ -1,0 +1,96 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Effective_C__",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "effective5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-effective5-Debug-772b4d920ed198ea5592.json",
+					"name" : "effective5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "effective6::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-effective6-Debug-d3f3eef98146d64da1b0.json",
+					"name" : "effective6",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "effective7::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-effective7-Debug-340109d0597af7243dd1.json",
+					"name" : "effective7",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "effective8::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-effective8-Debug-014234ade17d2f453ed0.json",
+					"name" : "effective8",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "effective9::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-effective9-Debug-0a8b956a5686c5c96525.json",
+					"name" : "effective9",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/bing/CLionProjects/C-14/Effective_C++/cmake-build-debug",
+		"source" : "/home/bing/CLionProjects/C-14/Effective_C++"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
