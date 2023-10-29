@@ -16,7 +16,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -32,7 +33,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -43,6 +45,13 @@
 					"id" : "algorithms::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-algorithms-Debug-ca5f0cfd7752e1b096d6.json",
 					"name" : "algorithms",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "up_down_cast_example::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-up_down_cast_example-Debug-391b369ab237fc273677.json",
+					"name" : "up_down_cast_example",
 					"projectIndex" : 0
 				},
 				{

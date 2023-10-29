@@ -52,16 +52,36 @@ build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 
 build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
+# =============================================================================
+# Object build statements for EXECUTABLE target up_down_cast_example
+
 
 #############################################
-# Utility command for edit_cache
+# Order-only phony target for up_down_cast_example
 
-build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/bing/CLionProjects/C-14/ch4/cmake-build-debug && /home/bing/Clion/clion-2021.3.3/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-  DESC = No interactive CMake dialog available...
-  restat = 1
+build cmake_object_order_depends_target_up_down_cast_example: phony || CMakeFiles/up_down_cast_example.dir
 
-build edit_cache: phony CMakeFiles/edit_cache.util
+build CMakeFiles/up_down_cast_example.dir/up_down_cast_example.cpp.o: CXX_COMPILER__up_down_cast_example_Debug /home/bing/CLionProjects/C-14/ch4/up_down_cast_example.cpp || cmake_object_order_depends_target_up_down_cast_example
+  DEP_FILE = CMakeFiles/up_down_cast_example.dir/up_down_cast_example.cpp.o.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles/up_down_cast_example.dir
+  OBJECT_FILE_DIR = CMakeFiles/up_down_cast_example.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target up_down_cast_example
+
+
+#############################################
+# Link the executable up_down_cast_example
+
+build up_down_cast_example: CXX_EXECUTABLE_LINKER__up_down_cast_example_Debug CMakeFiles/up_down_cast_example.dir/up_down_cast_example.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/up_down_cast_example.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = up_down_cast_example
+  TARGET_PDB = up_down_cast_example.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target algorithms
@@ -125,6 +145,17 @@ build vector: CXX_EXECUTABLE_LINKER__vector_Debug CMakeFiles/vector.dir/vector.c
   TARGET_FILE = vector
   TARGET_PDB = vector.dbg
 
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/bing/CLionProjects/C-14/ch4/cmake-build-debug && /home/bing/Clion/clion-2021.3.3/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
 # =============================================================================
 # Target aliases.
 
@@ -136,7 +167,7 @@ build vector: CXX_EXECUTABLE_LINKER__vector_Debug CMakeFiles/vector.dir/vector.c
 #############################################
 # Folder: /home/bing/CLionProjects/C-14/ch4/cmake-build-debug
 
-build all: phony algorithms vector
+build all: phony up_down_cast_example algorithms vector
 
 # =============================================================================
 # Built-in targets

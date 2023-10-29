@@ -1,5 +1,9 @@
 # ninja log v5
 204	237	1696923675139567040	vector	f5b574f89c7ef8a
-0	204	1696923675107567492	CMakeFiles/vector.dir/vector.cpp.o	8b2ae2fc6f0b03ed
 0	207	1696988645662177609	CMakeFiles/algorithms.dir/algorithms.cpp.o	d699adfe92df0e29
+0	204	1696923675107567492	CMakeFiles/vector.dir/vector.cpp.o	8b2ae2fc6f0b03ed
 207	257	1696988645710176243	algorithms	89ac39a3d85ee2f
+0	163	1697077982321186662	CMakeFiles/up_down_cast_example.dir/up_down_cast_example.cpp.o	cde2010c73d4a579
+163	241	1697077982401190709	up_down_cast_example	4ea572f5313b166c
+0	116	1697078022383200440	CMakeFiles/up_down_cast_example.dir/up_down_cast_example.cpp.o	cde2010c73d4a579
+117	149	1697078022415202039	up_down_cast_example	4ea572f5313b166c
