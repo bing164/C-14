@@ -19,7 +19,11 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5,
+						6,
+						7,
+						8
 					]
 				}
 			],
@@ -38,12 +42,44 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5,
+						6,
+						7,
+						8
 					]
 				}
 			],
 			"targets" : 
 			[
+				{
+					"directoryIndex" : 0,
+					"id" : "effective10::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-effective10-Debug-b633a2f99fd62822b930.json",
+					"name" : "effective10",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "effective11::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-effective11-Debug-3c58eb50d2a05f95a23e.json",
+					"name" : "effective11",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "effective12::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-effective12-Debug-9a6502249df190fcd8e4.json",
+					"name" : "effective12",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "effective13::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-effective13-Debug-01c5b87c844c8495c639.json",
+					"name" : "effective13",
+					"projectIndex" : 0
+				},
 				{
 					"directoryIndex" : 0,
 					"id" : "effective5::@6890427a1f51a3e7e1df",

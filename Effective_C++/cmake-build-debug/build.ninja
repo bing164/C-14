@@ -52,109 +52,67 @@ build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 
 build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
-
-#############################################
-# Utility command for edit_cache
-
-build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/bing/CLionProjects/C-14/Effective_C++/cmake-build-debug && /home/bing/Clion/clion-2021.3.3/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-  DESC = No interactive CMake dialog available...
-  restat = 1
-
-build edit_cache: phony CMakeFiles/edit_cache.util
-
 # =============================================================================
-# Object build statements for EXECUTABLE target effective9
+# Object build statements for EXECUTABLE target effective8
 
 
 #############################################
-# Order-only phony target for effective9
+# Order-only phony target for effective8
 
-build cmake_object_order_depends_target_effective9: phony || CMakeFiles/effective9.dir
+build cmake_object_order_depends_target_effective8: phony || CMakeFiles/effective8.dir
 
-build CMakeFiles/effective9.dir/effective9.cpp.o: CXX_COMPILER__effective9_Debug /home/bing/CLionProjects/C-14/Effective_C++/effective9.cpp || cmake_object_order_depends_target_effective9
-  DEP_FILE = CMakeFiles/effective9.dir/effective9.cpp.o.d
+build CMakeFiles/effective8.dir/effective8.cpp.o: CXX_COMPILER__effective8_Debug /home/bing/CLionProjects/C-14/Effective_C++/effective8.cpp || cmake_object_order_depends_target_effective8
+  DEP_FILE = CMakeFiles/effective8.dir/effective8.cpp.o.d
   FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles/effective9.dir
-  OBJECT_FILE_DIR = CMakeFiles/effective9.dir
+  OBJECT_DIR = CMakeFiles/effective8.dir
+  OBJECT_FILE_DIR = CMakeFiles/effective8.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target effective9
+# Link build statements for EXECUTABLE target effective8
 
 
 #############################################
-# Link the executable effective9
+# Link the executable effective8
 
-build effective9: CXX_EXECUTABLE_LINKER__effective9_Debug CMakeFiles/effective9.dir/effective9.cpp.o
+build effective8: CXX_EXECUTABLE_LINKER__effective8_Debug CMakeFiles/effective8.dir/effective8.cpp.o
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles/effective9.dir
+  OBJECT_DIR = CMakeFiles/effective8.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = effective9
-  TARGET_PDB = effective9.dbg
+  TARGET_FILE = effective8
+  TARGET_PDB = effective8.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target effective5
+# Object build statements for EXECUTABLE target effective10
 
 
 #############################################
-# Order-only phony target for effective5
+# Order-only phony target for effective10
 
-build cmake_object_order_depends_target_effective5: phony || CMakeFiles/effective5.dir
+build cmake_object_order_depends_target_effective10: phony || CMakeFiles/effective10.dir
 
-build CMakeFiles/effective5.dir/effective5.cpp.o: CXX_COMPILER__effective5_Debug /home/bing/CLionProjects/C-14/Effective_C++/effective5.cpp || cmake_object_order_depends_target_effective5
-  DEP_FILE = CMakeFiles/effective5.dir/effective5.cpp.o.d
+build CMakeFiles/effective10.dir/effective10.cpp.o: CXX_COMPILER__effective10_Debug /home/bing/CLionProjects/C-14/Effective_C++/effective10.cpp || cmake_object_order_depends_target_effective10
+  DEP_FILE = CMakeFiles/effective10.dir/effective10.cpp.o.d
   FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles/effective5.dir
-  OBJECT_FILE_DIR = CMakeFiles/effective5.dir
+  OBJECT_DIR = CMakeFiles/effective10.dir
+  OBJECT_FILE_DIR = CMakeFiles/effective10.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target effective5
+# Link build statements for EXECUTABLE target effective10
 
 
 #############################################
-# Link the executable effective5
+# Link the executable effective10
 
-build effective5: CXX_EXECUTABLE_LINKER__effective5_Debug CMakeFiles/effective5.dir/effective5.cpp.o
+build effective10: CXX_EXECUTABLE_LINKER__effective10_Debug CMakeFiles/effective10.dir/effective10.cpp.o
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles/effective5.dir
+  OBJECT_DIR = CMakeFiles/effective10.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = effective5
-  TARGET_PDB = effective5.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target effective7
-
-
-#############################################
-# Order-only phony target for effective7
-
-build cmake_object_order_depends_target_effective7: phony || CMakeFiles/effective7.dir
-
-build CMakeFiles/effective7.dir/effective7.cpp.o: CXX_COMPILER__effective7_Debug /home/bing/CLionProjects/C-14/Effective_C++/effective7.cpp || cmake_object_order_depends_target_effective7
-  DEP_FILE = CMakeFiles/effective7.dir/effective7.cpp.o.d
-  FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles/effective7.dir
-  OBJECT_FILE_DIR = CMakeFiles/effective7.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target effective7
-
-
-#############################################
-# Link the executable effective7
-
-build effective7: CXX_EXECUTABLE_LINKER__effective7_Debug CMakeFiles/effective7.dir/effective7.cpp.o
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/effective7.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = effective7
-  TARGET_PDB = effective7.dbg
+  TARGET_FILE = effective10
+  TARGET_PDB = effective10.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target effective6
@@ -188,35 +146,201 @@ build effective6: CXX_EXECUTABLE_LINKER__effective6_Debug CMakeFiles/effective6.
   TARGET_PDB = effective6.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target effective8
+# Object build statements for EXECUTABLE target effective12
 
 
 #############################################
-# Order-only phony target for effective8
+# Order-only phony target for effective12
 
-build cmake_object_order_depends_target_effective8: phony || CMakeFiles/effective8.dir
+build cmake_object_order_depends_target_effective12: phony || CMakeFiles/effective12.dir
 
-build CMakeFiles/effective8.dir/effective8.cpp.o: CXX_COMPILER__effective8_Debug /home/bing/CLionProjects/C-14/Effective_C++/effective8.cpp || cmake_object_order_depends_target_effective8
-  DEP_FILE = CMakeFiles/effective8.dir/effective8.cpp.o.d
+build CMakeFiles/effective12.dir/effective12.cpp.o: CXX_COMPILER__effective12_Debug /home/bing/CLionProjects/C-14/Effective_C++/effective12.cpp || cmake_object_order_depends_target_effective12
+  DEP_FILE = CMakeFiles/effective12.dir/effective12.cpp.o.d
   FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles/effective8.dir
-  OBJECT_FILE_DIR = CMakeFiles/effective8.dir
+  OBJECT_DIR = CMakeFiles/effective12.dir
+  OBJECT_FILE_DIR = CMakeFiles/effective12.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target effective8
+# Link build statements for EXECUTABLE target effective12
 
 
 #############################################
-# Link the executable effective8
+# Link the executable effective12
 
-build effective8: CXX_EXECUTABLE_LINKER__effective8_Debug CMakeFiles/effective8.dir/effective8.cpp.o
+build effective12: CXX_EXECUTABLE_LINKER__effective12_Debug CMakeFiles/effective12.dir/effective12.cpp.o
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles/effective8.dir
+  OBJECT_DIR = CMakeFiles/effective12.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = effective8
-  TARGET_PDB = effective8.dbg
+  TARGET_FILE = effective12
+  TARGET_PDB = effective12.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target effective5
+
+
+#############################################
+# Order-only phony target for effective5
+
+build cmake_object_order_depends_target_effective5: phony || CMakeFiles/effective5.dir
+
+build CMakeFiles/effective5.dir/effective5.cpp.o: CXX_COMPILER__effective5_Debug /home/bing/CLionProjects/C-14/Effective_C++/effective5.cpp || cmake_object_order_depends_target_effective5
+  DEP_FILE = CMakeFiles/effective5.dir/effective5.cpp.o.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles/effective5.dir
+  OBJECT_FILE_DIR = CMakeFiles/effective5.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target effective5
+
+
+#############################################
+# Link the executable effective5
+
+build effective5: CXX_EXECUTABLE_LINKER__effective5_Debug CMakeFiles/effective5.dir/effective5.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/effective5.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = effective5
+  TARGET_PDB = effective5.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target effective13
+
+
+#############################################
+# Order-only phony target for effective13
+
+build cmake_object_order_depends_target_effective13: phony || CMakeFiles/effective13.dir
+
+build CMakeFiles/effective13.dir/effective13.cpp.o: CXX_COMPILER__effective13_Debug /home/bing/CLionProjects/C-14/Effective_C++/effective13.cpp || cmake_object_order_depends_target_effective13
+  DEP_FILE = CMakeFiles/effective13.dir/effective13.cpp.o.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles/effective13.dir
+  OBJECT_FILE_DIR = CMakeFiles/effective13.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target effective13
+
+
+#############################################
+# Link the executable effective13
+
+build effective13: CXX_EXECUTABLE_LINKER__effective13_Debug CMakeFiles/effective13.dir/effective13.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/effective13.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = effective13
+  TARGET_PDB = effective13.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target effective9
+
+
+#############################################
+# Order-only phony target for effective9
+
+build cmake_object_order_depends_target_effective9: phony || CMakeFiles/effective9.dir
+
+build CMakeFiles/effective9.dir/effective9.cpp.o: CXX_COMPILER__effective9_Debug /home/bing/CLionProjects/C-14/Effective_C++/effective9.cpp || cmake_object_order_depends_target_effective9
+  DEP_FILE = CMakeFiles/effective9.dir/effective9.cpp.o.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles/effective9.dir
+  OBJECT_FILE_DIR = CMakeFiles/effective9.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target effective9
+
+
+#############################################
+# Link the executable effective9
+
+build effective9: CXX_EXECUTABLE_LINKER__effective9_Debug CMakeFiles/effective9.dir/effective9.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/effective9.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = effective9
+  TARGET_PDB = effective9.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target effective7
+
+
+#############################################
+# Order-only phony target for effective7
+
+build cmake_object_order_depends_target_effective7: phony || CMakeFiles/effective7.dir
+
+build CMakeFiles/effective7.dir/effective7.cpp.o: CXX_COMPILER__effective7_Debug /home/bing/CLionProjects/C-14/Effective_C++/effective7.cpp || cmake_object_order_depends_target_effective7
+  DEP_FILE = CMakeFiles/effective7.dir/effective7.cpp.o.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles/effective7.dir
+  OBJECT_FILE_DIR = CMakeFiles/effective7.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target effective7
+
+
+#############################################
+# Link the executable effective7
+
+build effective7: CXX_EXECUTABLE_LINKER__effective7_Debug CMakeFiles/effective7.dir/effective7.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/effective7.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = effective7
+  TARGET_PDB = effective7.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target effective11
+
+
+#############################################
+# Order-only phony target for effective11
+
+build cmake_object_order_depends_target_effective11: phony || CMakeFiles/effective11.dir
+
+build CMakeFiles/effective11.dir/effective11.cpp.o: CXX_COMPILER__effective11_Debug /home/bing/CLionProjects/C-14/Effective_C++/effective11.cpp || cmake_object_order_depends_target_effective11
+  DEP_FILE = CMakeFiles/effective11.dir/effective11.cpp.o.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles/effective11.dir
+  OBJECT_FILE_DIR = CMakeFiles/effective11.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target effective11
+
+
+#############################################
+# Link the executable effective11
+
+build effective11: CXX_EXECUTABLE_LINKER__effective11_Debug CMakeFiles/effective11.dir/effective11.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/effective11.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = effective11
+  TARGET_PDB = effective11.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/bing/CLionProjects/C-14/Effective_C++/cmake-build-debug && /home/bing/Clion/clion-2021.3.3/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
 
 # =============================================================================
 # Target aliases.
@@ -229,7 +353,7 @@ build effective8: CXX_EXECUTABLE_LINKER__effective8_Debug CMakeFiles/effective8.
 #############################################
 # Folder: /home/bing/CLionProjects/C-14/Effective_C++/cmake-build-debug
 
-build all: phony effective9 effective5 effective7 effective6 effective8
+build all: phony effective8 effective10 effective6 effective12 effective5 effective13 effective9 effective7 effective11
 
 # =============================================================================
 # Built-in targets

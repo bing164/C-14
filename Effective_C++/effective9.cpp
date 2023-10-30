@@ -8,28 +8,33 @@
 
 class Transaction {
 public:
-    Transaction() {
-        init();
+    explicit Transaction(const std::string& logInfo);
+
+    void logTransaction(const std::string& logInfo) const {
+        std::cout << "Transaction logTransaction" << std::endl;
     }
 
-    virtual void logTransaction() const = 0;
-
-private:
-    void init() {
-        logTransaction();
-    }
 };
 
-//Transaction::Transaction() {
-//    logTransaction();
-//}
+Transaction::Transaction(const std::string &logInfo) {
+    std::cout << "construct Transaction " << logInfo << std::endl;
+    logTransaction(logInfo);
+}
 
 class BuyTransaction : public Transaction {
 public:
-    virtual void logTransaction() const {
-        std::cout << "buy " << std::endl;
+    BuyTransaction() : Transaction(createLogString()) {
+        std::cout << "construct BuyTransaction" << std::endl;
     }
+
+private:
+    static std::string createLogString();
 };
+
+std::string BuyTransaction::createLogString() {
+    std::cout << "BuyTransaction createLogString" << std::endl;
+    return "123";
+}
 
 class SellTransaction : public Transaction {
 public:
@@ -39,6 +44,7 @@ public:
 };
 
 int main(int argc, char** argv) {
+//    const std::string& str = "1030";
     BuyTransaction b;
     return 0;
 }
